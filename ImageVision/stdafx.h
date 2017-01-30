@@ -192,7 +192,6 @@ private:
 #define OUT_SOFT_START		5
 #define OUT_OVER_DETECT		6
 
-
 #define  _MODEL_MAX			12
 
 enum RECTANGLE{
