@@ -114,7 +114,7 @@ enum{
 
 #include "imgDeal.h"
 
-#pragma comment(lib,"../x64/Release/img0.0.1.lib")
+#pragma comment(lib,"../lib/img0.0.1.lib")
 
 #include "opencv2\opencv.hpp"
 
@@ -133,7 +133,7 @@ enum{
 #pragma comment(lib,"opencv/x86/opencv_highgui2411.lib")
 #pragma comment(lib,"opencv/x86/opencv_imgproc2411.lib")
 #pragma comment(lib,"opencv/x86/opencv_calib3d2411.lib")
-#pragma comment(lib,"../Release/img0.0.1.lib")
+#pragma comment(lib,"lib/img0.0.1.lib")
 
 #endif
 
