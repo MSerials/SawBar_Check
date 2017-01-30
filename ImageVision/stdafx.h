@@ -204,8 +204,6 @@ enum TIMERUSE
 	ORIGIN = 1,CAMERCATCH = 2,BOTTOMCAMERCATCH = 3
 };
 
-
-
 #define NONESTATE				(0)
 #define SYSEMGENCY				(1<<0)
 #define SYSSTOP					(1<<1)
