@@ -192,7 +192,6 @@
     <ClInclude Include="BottomDlg.h" />
     <ClInclude Include="BottomView.h" />
     <ClInclude Include="CamDALSA.h" />
-    <ClInclude Include="camera\DahengCam.h" />
     <ClInclude Include="encrypt.h" />
     <ClInclude Include="ExampleUtils.h" />
     <ClInclude Include="halcon.h" />
@@ -222,11 +221,6 @@
     <ClCompile Include="BottomDlg.cpp" />
     <ClCompile Include="BottomView.cpp" />
     <ClCompile Include="CamDALSA.cpp" />
-    <ClCompile Include="camera\DahengCam.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
-    </ClCompile>
     <ClCompile Include="ExampleUtils.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>

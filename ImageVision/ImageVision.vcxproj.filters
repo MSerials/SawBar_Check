@@ -45,9 +45,6 @@
     <ClInclude Include="include\Preferences.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="camera\DahengCam.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="test.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -120,9 +117,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\Preferences.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="camera\DahengCam.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="test.cpp">

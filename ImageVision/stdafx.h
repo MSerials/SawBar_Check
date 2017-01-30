@@ -127,8 +127,8 @@ enum{
 #else
 #include "imgDeal.h"
 #include "opencv2\opencv.hpp"
-#pragma comment(lib,"camera/lib/x86/GxIAPI.lib")
-#pragma comment(lib,"camera/lib/x86/DxImageProc.lib")
+//#pragma comment(lib,"camera/lib/x86/GxIAPI.lib")
+//#pragma comment(lib,"camera/lib/x86/DxImageProc.lib")
 #pragma comment(lib,"opencv/x86/opencv_core2411.lib")
 #pragma comment(lib,"opencv/x86/opencv_highgui2411.lib")
 #pragma comment(lib,"opencv/x86/opencv_imgproc2411.lib")
@@ -208,27 +208,7 @@ enum TIMERUSE
 	ORIGIN = 1,CAMERCATCH = 2,BOTTOMCAMERCATCH = 3
 };
 
-#if 0
-enum STATE
-{
-	NONESTATE					= 0,
-	SYSEMGENCY					= 1,
-	SYSSTOP						= 2,
-	SYSRUNNING					= 4,
-	SYSTRAINING					= 8,
-	TOPCAMERROR					= 16,
-	BOTTOMERROR					= 32,
-	SYSTOPTRAIN					= 64,
-	SYSBOTTOMTRAIN				= 128,
-	FST_MOTOR_NOT_ALREADY		= 256,
-	SND_MOTOR_NOT_ALREADY		= 512,
-	SYSPRESSURE					= 1024,
-	TOP_CAPING					= 2048,
-	BOTTOM_CAPING				= 4096,
-	SYSFRONTTIMEOUT				= 8192,
-	SYSBACKTIMEOUT				= 16384
-};
-#endif
+
 
 #define NONESTATE				(0)
 #define SYSEMGENCY				(1<<0)
