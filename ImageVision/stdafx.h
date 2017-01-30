@@ -100,9 +100,6 @@ enum{
 
 //#include "imgDeal.h"
 //#pragma comment(lib,"../x64/DEBUG/img0.0.1.lib")
-
-
-
 //#include "opencv2\opencv.hpp"
 
 #else
