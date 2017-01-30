@@ -131,7 +131,6 @@ enum{
 #pragma comment(lib,"opencv/x86/opencv_imgproc2411.lib")
 #pragma comment(lib,"opencv/x86/opencv_calib3d2411.lib")
 #pragma comment(lib,"lib/img0.0.1.lib")
-
 #endif
 
 #include "motioncard/MotionCard.h"
